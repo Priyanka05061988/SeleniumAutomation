@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="RegressionTest" parallel="methods">
+    <classes>
+      <class name="com.csg.tau.TestProject.SeleniumJan.SwitchWindow"/>
+      <class name="com.csg.tau.TestProject.SeleniumJan.DemoAlerts"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

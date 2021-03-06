@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="com.csg.tau.TestProject.SeleniumJan.DemoNewTours">
+        <methods>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- com.csg.tau.TestProject.SeleniumJan.DemoNewTours -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
